@@ -1,0 +1,204 @@
+
+    
+    header {
+     top: 0px;
+     position: fixed;
+     width: 210px;
+     height: 100%;
+     z-index: 2;
+      background-color: #000;
+    }
+    
+    header ul li{
+           
+        font-size: 14px;
+        border-top: 1px solid #fff;
+         border-bottom: 1px solid #fff;
+        padding: 6px 6px 6px 2px;
+        
+      
+    }
+    
+    
+    
+     header ul li:hover{
+       
+       
+      background-color: #cd452c;
+     
+      
+    }
+    header a{
+         color:#000;
+         
+    }
+    .glyphicon{
+        color: #fff ;
+    }
+    a li{
+       
+            }
+    
+    li a{
+        margin-left: 30px;
+    }
+    li span{
+        margin-left: 40px;
+    }
+    
+    header ul{
+       margin-left: -39px;
+        list-style-type: none;
+    }
+    
+   #logo{
+        
+        margin-left: 20px;
+    }
+    
+    #editar_perfil{
+        color: #fff;
+        float: right;
+        margin-right: 100px;
+        margin-top: 12px;
+    }
+    
+    #menu_lateral{
+        top: 0;
+       position:relative;
+        height: 50px;
+        margin-left: 210px;
+        background-color: #000;
+        width: auto;
+       
+       
+       
+    
+    }
+    
+  
+    
+    
+    
+        @media screen and (max-width: 1224px) {
+            
+            header .control-nav {
+                
+              position: absolute;
+              right: 20px;
+              top: 40px;
+              display: block;
+              width: 30px;
+              padding: 5px 0;
+              border: solid #fff;
+              border-width: 3px 0;
+              cursor: pointer;
+               z-index: 200;
+
+
+            }
+            header{
+                position: fixed;
+                height: auto;
+                width: 100%;
+                z-index: 200;
+            }
+              header a{
+               color:#fff;
+
+           }
+            .glyphicon{
+                color: #fff ;
+            }
+            header li{
+                background-color: #000;
+                border-bottom: 2px solid #000;
+                 z-index: 200;
+
+            }
+            #menu_lateral{
+                display: none;
+            }
+
+           #logo{
+
+              margin-left: 40px;
+          }
+
+
+            header .control-nav:before {
+              content: "";
+              display: block;
+              height: 3px;
+              z-index: 200;
+              background: #fff;
+            }
+
+            header .control-nav-close {
+              position: fixed;
+              right: 0;
+              top: 0;
+              bottom: 0;
+              left: 0;
+              display: block;
+              z-index: 200;
+              background: rgba(0,0,0,0.4);
+              -webkit-transition: all 500ms ease;
+              transition: all 500ms ease;
+              -webkit-transform: translate(100%, 0);
+              -ms-transform: translate(100%, 0);
+              transform: translate(100%, 0);
+
+            }
+
+            header nav {
+              
+              z-index: 200;
+              position: fixed;
+              top: 0;
+              right: 0;
+              bottom: 0;
+              width: 250px;
+              border-left: 1px solid #ccc;
+              background: #fff;
+              overflow-x: auto;
+              -webkit-transition: all 500ms ease;
+              transition: all 500ms ease;
+              -webkit-transform: translate(100%, 0);
+              -ms-transform: translate(100%, 0);
+              transform: translate(100%, 0);
+
+            }
+
+            #editar_perfil{
+                display: none;
+            }
+
+            #perfil{
+                display: block!important;
+            }
+            
+        header ul li{
+           
+        
+        padding: 15px 9px 15px 2px;
+      
+        }
+        
+        #liconfig{
+            border-bottom: 1px solid #000;
+        }
+      
+    }
+    
+        #control-nav:checked ~ .control-nav-close {
+      -webkit-transform: translate(0, 0);
+      -ms-transform: translate(0, 0);
+      transform: translate(0, 0);
+    }
+     
+    #control-nav:checked ~ nav {
+      -webkit-transform: translate(0, 0);
+      -ms-transform: translate(0, 0);
+      transform: translate(0, 0);
+    }

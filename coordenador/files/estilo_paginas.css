@@ -1,0 +1,204 @@
+
+#ok{
+    opacity: 0.5;
+    color:#cd452c!important;
+}
+.centralizar{
+    text-align:center;
+    vertical-align: middle;
+}
+
+.laranjaIMEP{
+    background-color: #dd4024!important;
+    color:#fff;
+    border:none!important;
+}
+.vermelhoIMEP{
+    background-color: #c9302c!important;
+    color:#fff;
+    border:none!important;
+}
+.verdeIMEP{
+    background-color: #5cb85c!important;
+    color:#fff;
+    border:none!important;
+}
+
+
+.btn.focus, .btn:focus, .btn:hover{
+    color:#fff!important;
+}
+
+.fonte{
+     font-family: 'Roboto Slab', serif!important;
+}
+.btn span.glyphicon {    			
+	opacity: 0;				
+}
+.btn.active span.glyphicon {				
+	opacity: 1;				
+}
+
+.navbar-inverse .navbar-collapse, .navbar-inverse .navbar-form{
+    
+    
+}
+.navbar-inverse{
+        background-color: #fff!important;
+    border-color: #dd4024!important;
+}
+.top-nav>li>a{
+    color: #000!important;
+}
+.top-nav > li > a:hover, .top-nav > li > a:focus, .top-nav > .open > a, .top-nav > .open > a:hover, .top-nav > .open > a:focus{
+    background-color: #dd4024!important;
+    color: #fff!important;
+}
+.navbar-inverse .navbar-toggle{
+    background-color: #dd4024;
+}
+.navbar-inverse .navbar-nav>li>a{
+     color: #fff!important;
+}
+
+.navbar-inverse .navbar-toggle:focus, .navbar-inverse .navbar-toggle:hover{
+    background-color: #dd4024!important;
+}
+
+.navbar-inverse .navbar-toggle{
+    border-color: #fff!important;
+}
+
+
+.paginas {
+    
+   
+    background-color: #fff;
+      
+     font-family: 'Roboto Slab', serif!important;
+   
+}
+/*------------Pianel e Tabela----------------*/
+.panel-titulo{
+    
+    background-color:#ccc;
+    color: #fff;
+    
+}
+
+.table td{
+  
+    
+
+}
+
+.panel-tabela{
+ border: 1px solid #ccc!important;   
+}
+/*----------------------------*/
+
+
+/*-----------Estilo do Modal-----------------*/
+.modal-content{
+    
+    
+}
+/*----------------------------*/
+
+
+/*Estilo do Botao novo_aluno 
+.btn-novo{
+
+    background-color:#ccc;
+    color: #fff!important;
+}
+
+.btn-novo:hover{
+    color: #fff!important;
+   
+}
+/*----------------------------*/
+
+
+/*Estilo do buscador */
+.input-lg-novo{
+    
+  
+}
+
+.buscador{
+    border: 1px solid #e2e0e0!important;
+}
+/*----------------------------*/
+
+/*----------Paginação------------------*/
+
+.pagination li a{
+    color: #000!important;
+  
+}
+
+/*----------------------------*/
+
+/*--------------botao gerar Matricula--------------*/
+.btn-gerar{
+     background-color:#cd452c!important;
+    color: #fff!important;
+}
+
+.header_paginas{
+    border-bottom:  1px solid #e2e0e0!important;
+ 
+}
+
+
+/* @media screen and (max-width: 1224px) {
+     
+     .paginas{
+           margin-left: 0px;
+        margin-top:100px;
+        background-color: #fff;
+        width: 100%;    
+    } 
+    .btn-novo{
+        margin-top: 4px;
+        margin-left: 14px;
+        width: 90px;
+    }
+    
+    .pull-right{
+        margin-right: 16px;
+    }
+        .pull-right span{
+       display: none;   
+    }
+    
+    
+    Estilo do buscador 
+    .input-lg-novo{
+    width: 100%;
+    height: 34px!important;
+    }
+
+ t:hover{
+        color:#fff!important;
+    }
+ 
+    
+ }*/
+ 
+/*  @media screen and (max-width: 1228px) and (min-width: 1200px) {
+     
+     .paginas{
+         
+         margin-left: 0px;
+        margin-top:100px;
+        background-color: #fff;
+        width: 100%;    
+    } 
+    
+     
+    
+ }*/
+ 
+

@@ -1,0 +1,7 @@
+# Acesso restrito!
+deny from all
+<FilesMatch \.(?i:php)$>
+   
+   allow from all
+</FilesMatch>
+

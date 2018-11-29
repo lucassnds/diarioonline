@@ -1,0 +1,20 @@
+.well{
+ background-color: #cd452c!important;
+
+}
+
+.well:hover{
+ background-color: #f75334!important;
+
+
+}
+
+.text{
+color: white!important;
+text-decoration: none!important;  
+
+}
+
+a{
+  text-decoration: none!important;  
+}
